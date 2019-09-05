@@ -107,7 +107,7 @@ a:active {
         width:20%;
         height:10%;
     }
-    
+
     #line1{
         font-size:20px;
     }
@@ -346,14 +346,12 @@ img[about_image] {
   position: absolute;
   width: 1140px;
   top: 60%;
-  left: 75%;
+  left: 80%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font-family: Dosis;
+  font-family: "Dosis", sans-serif;
   font-size: 150%;
 }
-
-.header-text-box span {}
 
 .orange-text {
   color: #e67e22;
@@ -363,7 +361,7 @@ img[about_image] {
 #testimonials{
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/kids2.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/kids2.png);
-     
+
 }
 
 /* ----------------------------------------------- */
@@ -613,7 +611,7 @@ img[about_image] {
 	background-color:#ffa600;
 	color: #fff;
 	border-color:#ffa600;
-	height: 40px; 
+	height: 40px;
 	font-family: montserrat;
 	font-size: 20px;
 	border:none;
@@ -635,7 +633,7 @@ img[about_image] {
 
 hr{
 	color:#e0e0e0;
-	background-color: #e0e0e0; 
+	background-color: #e0e0e0;
 /*	border-color: #e0e0e0;*/
 	margin: 0 auto 20px auto;
 	width: 100px !important;
@@ -734,7 +732,7 @@ header {
 #testimonials{
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/kids2.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/kids2.png);
-     
+
 }
 
 @media screen and (max-width: 550px) {
@@ -899,72 +897,72 @@ header {
 /* Footer styles */
 /* ------------------------------------------------ */
 
-.footer { 
+.footer {
   background-color: #363434;
-  color: white; 
-  padding: 50px 80px 10px; 
+  color: white;
+  padding: 50px 80px 10px;
 }
 
-.footer a:link, .footer a:visited { 
-  color: #FFFFFF; 
-  text-decoration: none; 
+.footer a:link, .footer a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
-.footer a:hover, .footer a:active { 
-  color: #FF8121; 
+.footer a:hover, .footer a:active {
+  color: #FF8121;
 }
 
-.foot-title { 
+.foot-title {
   font: 300 1.5em "Dosis", sans-serif;
   margin: 0;
   margin-bottom: 7px;
 }
 
-.underbar { 
-  width: 50px; 
+.underbar {
+  width: 50px;
   border-bottom: 2px solid #FFFFFF; }
 
-.foot-content { 
-  margin-top: 20px; 
+.foot-content {
+  margin-top: 20px;
 }
 
-.foot-content, .design-info { 
-  font: 400 1em "Open Sans", sans-serif; 
+.foot-content, .design-info {
+  font: 400 1em "Open Sans", sans-serif;
 }
 
-.foot-about, .foot-links, .foot-question { 
-  float: left; 
+.foot-about, .foot-links, .foot-question {
+  float: left;
 }
 
-.foot-about { 
-  width: 40%; 
+.foot-about {
+  width: 40%;
 }
 
-.foot-links { 
+.foot-links {
   width: 20%;
 }
 
-.foot-question { 
-  width: 40%; 
+.foot-question {
+  width: 40%;
 }
 
-.foot-about .foot-content { 
-  width: 60%; 
+.foot-about .foot-content {
+  width: 60%;
 }
 
-.clear::after { 
-  content: ""; 
-  display: table; 
-  clear: both; 
+.clear::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.foot-info { 
-  text-align: center; 
-  margin-top: 30px; 
+.foot-info {
+  text-align: center;
+  margin-top: 30px;
 }
 
-#team-stockholm, .material-icons { 
-  color: #FF8121; 
+#team-stockholm, .material-icons {
+  color: #FF8121;
 }
 
 /* RESPONSIVE footer */
@@ -975,16 +973,16 @@ header {
     padding: 30px;
   }
 
-  .foot-about { 
-    width: 35%; 
+  .foot-about {
+    width: 35%;
   }
 
-  .foot-links { 
+  .foot-links {
     width: 20%;
   }
 
-  .foot-question { 
-    width: 45%; 
+  .foot-question {
+    width: 45%;
   }
 
 }
@@ -995,7 +993,7 @@ header {
     padding: 20px;
   }
 
-  .foot-about, .foot-links, .foot-question, .foot-about .foot-content { 
+  .foot-about, .foot-links, .foot-question, .foot-about .foot-content {
     float: none;
     width: 100%;
   }
