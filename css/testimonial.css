@@ -24,6 +24,7 @@ img:hover {
 #img {
   width: 20%;
   height: 10%;
+   border-radius: 0;
 }
 
 #line1 {
@@ -313,6 +314,12 @@ img {
 .foot-links,
 .foot-question {
   float: left;
+}
+
+#footer-logo {
+  width: 20%;
+  height: 10%;
+   border-radius: 0;
 }
 
 .foot-about {
